@@ -62,4 +62,5 @@ sudo systemctl restart nginx
 systemctl restart nginx: Nginx 서버를 재시작하는 명령입니다. 새로운 설정을 적용하기 위해 사용됩니다.
 ```
 
-
+## 참고 
+- https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/
