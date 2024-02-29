@@ -6,6 +6,8 @@
 
 ![image](https://github.com/be01-4nd-mini-project-TEAM1/R4-nginx-proxy/assets/125641153/6d56f3ed-ff5b-4ec5-aa3a-0bba8770c159)
 
+
+# Sample nginx caching config
 ```
 http {
     # ...
@@ -29,6 +31,7 @@ http {
     }
 }
 ```
+# 각 요소에 대한 설명
 ```
 proxy_cache_path /var/cache/nginx levels=1:2 keys_zone=my_cache:10m max_size=10g inactive=60m;
 
