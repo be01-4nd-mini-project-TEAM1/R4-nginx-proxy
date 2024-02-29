@@ -29,6 +29,7 @@ http {
     }
 }
 ```
+```
 proxy_cache_path /var/cache/nginx levels=1:2 keys_zone=my_cache:10m max_size=10g inactive=60m;
 
 proxy_cache_path: 캐시 파일을 저장할 디렉토리와 관련된 설정을 지정하는 지시어입니다.
